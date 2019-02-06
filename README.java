@@ -9,7 +9,7 @@ public static void main(String args[])
 	int count=0;
 	for(int i=0;i<a.length();i++)
 	{
-	    if((a.charAt(i)>='0'||a.charAt(i)>='a')&&(a.charAt(i)<='9'||a.charAt(i)<='z'))
+	    if((a.charAt(i)>='0'||a.charAt(i)>='a')&&(a.charAt(i)<='9'||a.charAt(i)<='z')&&(a.charAt(i)!='_'))
 	    {
 		
 	     }
@@ -18,4 +18,3 @@ public static void main(String args[])
 		count++;
 	}}
 	System.out.println(count);
-}}
